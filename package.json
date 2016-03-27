@@ -11,7 +11,12 @@
     "test": "ava"
   },
   "repository": "johnotander/replace-classes",
-  "keywords": [],
+  "keywords": [
+    "html",
+    "replace",
+    "class",
+    "classes"
+  ],
   "license": "MIT",
   "dependencies": {
     "cheerio": "^0.20.0",
