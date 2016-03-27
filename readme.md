@@ -13,7 +13,12 @@ npm install --save replace-classes
 ```javascript
 var replaceClasses = require('replace-classes')
 
-replaceClasses()  // => true
+replaceClasses('<a href="#!" class="btn btn-default">Hello!</a>', {
+  btn: 'b br2',
+  'btn-default': 'b--light-gray bg-white'
+})
+
+// => '<a href="#!" class="b br2 b--light-gray bg-white">Hello!</a>'
 ```
 
 ## License

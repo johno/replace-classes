@@ -13,7 +13,10 @@
   "repository": "johnotander/replace-classes",
   "keywords": [],
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "is-blank": "^1.1.0"
+  },
   "devDependencies": {
     "ava": "*"
   }
